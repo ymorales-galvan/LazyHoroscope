@@ -18,6 +18,7 @@ cin>>lastName;
   //tell fortune
  
 cout<< "Welcome, " <<firstName [0]  <<lastName[0]<<  " ,here is your fortune... ";
-
+int lucky = firstName.length ();
+cout<< "Your lucky number is " <<lucky <<endl;
   return 0;
 }
