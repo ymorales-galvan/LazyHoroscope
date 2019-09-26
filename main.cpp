@@ -24,23 +24,25 @@ cout<< "your lucky number is " <<lucky <<endl;
 
 if ( firstName.at (0) == 'A' || firstName.at (0) == 'a' || firstName.at (0) == 'E'|| firstName.at (0) == 'e' || firstName.at (0) == 'I' || firstName.at (0) == 'i' || firstName.at (0) == 'O' || firstName.at (0) == 'o'|| firstName.at (0) == 'U'|| firstName.at (0) == 'u' )
 {
-        cout<< "You are destined to be famous " <<endl ;
+        cout<< "you are destined to be famous!" <<endl;
  }
 else
 {
-        cout<< "You should keep a low profile" <<endl ;
+        cout<< "you should keep a low profile." <<endl;
 }
 
 int index;
 index = lastName.length()-1;
 
-if ( lastName.at (0) == 'A' || lastName.at (0) == 'a' || lastName.at (0) == 'E' || lastName.at (0) == 'e' ||  lastName.at (0) == 'I' || lastName.at (0) == 'i' || lastName.at (0) == 'O' || lastName.at (0) =='o' || lastName.at (0) == 'U'|| lastName.at (0) == 'u' )
+if ( lastName.at (index) == 'A' || lastName.at (index) == 'a' || lastName.at (index) == 'E' || lastName.at (index) == 'e' ||  lastName.at (index) == 'I' || lastName.at (index) == 'i' || lastName.at (index) == 'O' || lastName.at (index) =='o' || lastName.at (index) == 'U'|| lastName.at (index) == 'u' )
 {
-        cout<< "You have already met your true love" <<endl;
+        cout<< "you have already met your true love." <<endl;
 }
-else
- {
-         cout<< "Have a nice day" <<endl;
- } 
+
+
+
+         cout<< "have a good day!" <<endl;
+
+
   return 0;
 }
